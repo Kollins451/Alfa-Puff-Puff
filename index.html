@@ -4,559 +4,977 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="ALFA PUFF PUFF Ijebu Ode - Fresh puff-puff and delicious pastries made for every occasion.">
-    <meta name="theme-color" content="#0756a8">
+    <meta name="description"
+        content="ALFA PUFF PUFF Ijebu Ode — Fresh puff-puff and quality pastries made for everyday enjoyment, events and special occasions.">
+
+    <meta name="theme-color" content="#0b4f8a">
 
     <title>ALFA PUFF PUFF | Ijebu Ode</title>
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
 
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- ================= HEADER ================= -->
+
     <header class="header" id="header">
+
         <div class="container nav-container">
 
-            <a href="#home" class="logo">
+            <a href="#home" class="logo" aria-label="ALFA PUFF PUFF home">
+
                 <span class="logo-mark">A</span>
-                <span>
+
+                <span class="logo-text">
                     <strong>ALFA</strong>
                     <small>PUFF PUFF</small>
                 </span>
+
             </a>
 
-            <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open navigation"
+                aria-expanded="false">
+
                 <span></span>
                 <span></span>
                 <span></span>
+
             </button>
 
-            <nav class="nav" id="nav">
+
+            <nav class="nav" id="nav" aria-label="Main navigation">
+
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#menu">Our Treats</a>
-                <a href="#why-us">Why Us</a>
+                <a href="#gallery">Gallery</a>
                 <a href="#contact">Contact</a>
-                <a href="https://wa.me/2349139967838" class="nav-order" target="_blank" rel="noopener">
+
+                <a
+                    href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20place%20an%20order."
+                    class="nav-order"
+                    target="_blank"
+                    rel="noopener">
                     Order Now
                 </a>
+
             </nav>
 
         </div>
+
     </header>
+
 
 
     <main>
 
-        <!-- HERO -->
-        <section class="hero" id="home">
-            <div class="hero-overlay"></div>
+        <!-- ================= HERO ================= -->
 
-            <div class="container hero-content">
+        <section class="hero" id="home">
+
+            <div class="hero-content container">
 
                 <div class="hero-text">
-                    <span class="eyebrow">FRESH • TASTY • MADE WITH LOVE</span>
+
+                    <span class="eyebrow">
+                        IJEBU ODE • FRESHLY PREPARED
+                    </span>
 
                     <h1>
-                        The Taste You
-                        <span>Can't Resist.</span>
+                        Crafted for
+                        <span>every craving.</span>
                     </h1>
 
                     <p>
-                        Delicious puff-puff and irresistible pastries,
-                        freshly prepared for everyday cravings, celebrations
-                        and special occasions in Ijebu Ode.
+                        Fresh puff-puff and quality pastries prepared
+                        with care for everyday enjoyment, celebrations,
+                        gatherings and special occasions.
                     </p>
+
 
                     <div class="hero-buttons">
-                        <a href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20place%20an%20order." 
-                           class="btn btn-primary"
-                           target="_blank"
-                           rel="noopener">
+
+                        <a
+                            href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20place%20an%20order."
+                            class="btn btn-primary"
+                            target="_blank"
+                            rel="noopener">
+
                             Order on WhatsApp
+
                             <span>→</span>
+
                         </a>
 
-                        <a href="#menu" class="btn btn-outline">
+
+                        <a
+                            href="#menu"
+                            class="btn btn-outline">
+
                             Explore Our Treats
+
                         </a>
+
                     </div>
 
-                    <div class="hero-trust">
-                        <div class="trust-item">
-                            <strong>100%</strong>
-                            <span>Freshly Made</span>
+
+                    <div class="hero-meta">
+
+                        <div>
+                            <strong>Fresh</strong>
+                            <span>Prepared with care</span>
                         </div>
 
-                        <div class="trust-line"></div>
+                        <div class="meta-divider"></div>
 
-                        <div class="trust-item">
+                        <div>
                             <strong>Ijebu Ode</strong>
-                            <span>Serving Locally</span>
+                            <span>Ogun State</span>
                         </div>
+
                     </div>
+
                 </div>
 
-                <div class="hero-card">
+
+                <div class="hero-visual">
+
                     <div class="hero-image">
-                        <img src="images/hero.jpg" alt="Fresh ALFA puff-puff and pastries">
+
+                        <img
+                            src="images/hero.jpg"
+                            alt="Fresh ALFA PUFF PUFF pastries"
+                            loading="eager">
+
                     </div>
 
-                    <div class="floating-badge">
-                        <span>✦</span>
-                        Freshly<br>Made
+                    <div class="hero-caption">
+
+                        <span>ALFA</span>
+
+                        <strong>
+                            Fresh taste.
+                            <br>
+                            Simple pleasure.
+                        </strong>
+
                     </div>
+
                 </div>
 
             </div>
+
         </section>
 
 
-        <!-- INTRO -->
+
+        <!-- ================= INTRO ================= -->
+
         <section class="intro">
-            <div class="container intro-grid">
 
-                <div class="intro-label">
-                    <span>01</span>
-                    <p>OUR STORY</p>
-                </div>
+            <div class="container intro-inner">
 
-                <div class="intro-text">
-                    <h2>
-                        Small bites.
-                        <em>Big happiness.</em>
-                    </h2>
-
-                    <p>
-                        At ALFA PUFF PUFF, we believe good food should make
-                        every moment better. From soft, golden puff-puff to
-                        delicious pastries, every bite is prepared with care
-                        and served fresh.
-                    </p>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- ABOUT -->
-        <section class="about section" id="about">
-            <div class="container about-grid">
-
-                <div class="about-images">
-                    <div class="about-main-image">
-                        <img src="images/puff-puff.jpg" alt="Fresh puff-puff">
-                    </div>
-
-                    <div class="about-small-image">
-                        <img src="images/pastries.jpg" alt="ALFA pastries">
-                    </div>
-
-                    <div class="experience-card">
-                        <span>✦</span>
-                        <strong>Made Fresh</strong>
-                        <small>For Every Occasion</small>
-                    </div>
-                </div>
-
-                <div class="about-content">
-                    <span class="section-tag">ABOUT ALFA</span>
-
-                    <h2>
-                        Freshly made.
-                        <span>Simply delicious.</span>
-                    </h2>
-
-                    <p>
-                        ALFA PUFF PUFF is a pastry brand serving delicious,
-                        freshly prepared treats in Ijebu Ode.
-                    </p>
-
-                    <p>
-                        Whether you're looking for something tasty to enjoy
-                        at home, treats for guests or pastries for an event,
-                        we're here to make your occasion extra special.
-                    </p>
-
-                    <div class="about-points">
-                        <div>
-                            <span>✓</span>
-                            <p>Freshly prepared</p>
-                        </div>
-
-                        <div>
-                            <span>✓</span>
-                            <p>Great taste</p>
-                        </div>
-
-                        <div>
-                            <span>✓</span>
-                            <p>Perfect for occasions</p>
-                        </div>
-
-                        <div>
-                            <span>✓</span>
-                            <p>Made with care</p>
-                        </div>
-                    </div>
-
-                    <a href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20make%20an%20inquiry."
-                       class="text-link"
-                       target="_blank"
-                       rel="noopener">
-                        Talk to us on WhatsApp →
-                    </a>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- MENU -->
-        <section class="menu-section section" id="menu">
-            <div class="container">
-
-                <div class="section-heading">
-                    <div>
-                        <span class="section-tag">WHAT WE MAKE</span>
-                        <h2>Our delicious <span>treats.</span></h2>
-                    </div>
-
-                    <p>
-                        From quick cravings to party orders,
-                        there's something delicious waiting for you.
-                    </p>
-                </div>
-
-                <div class="menu-grid">
-
-                    <article class="menu-card">
-                        <div class="menu-image">
-                            <img src="images/puff-puff.jpg" alt="Puff-puff">
-                            <span class="menu-number">01</span>
-                        </div>
-
-                        <div class="menu-info">
-                            <h3>Puff-Puff</h3>
-                            <p>Soft, golden and deliciously satisfying.</p>
-                            <a href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20want%20to%20order%20puff-puff."
-                               target="_blank"
-                               rel="noopener">
-                                Order now →
-                            </a>
-                        </div>
-                    </article>
-
-
-                    <article class="menu-card">
-                        <div class="menu-image">
-                            <img src="images/pastries.jpg" alt="Fresh pastries">
-                            <span class="menu-number">02</span>
-                        </div>
-
-                        <div class="menu-info">
-                            <h3>Pastries</h3>
-                            <p>Freshly prepared pastries for every craving.</p>
-                            <a href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20want%20to%20order%20pastries."
-                               target="_blank"
-                               rel="noopener">
-                                Order now →
-                            </a>
-                        </div>
-                    </article>
-
-
-                    <article class="menu-card">
-                        <div class="menu-image">
-                            <img src="images/snacks.jpg" alt="Delicious snacks">
-                            <span class="menu-number">03</span>
-                        </div>
-
-                        <div class="menu-info">
-                            <h3>Snacks</h3>
-                            <p>Tasty bites made for everyday enjoyment.</p>
-                            <a href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20want%20to%20order%20snacks."
-                               target="_blank"
-                               rel="noopener">
-                                Order now →
-                            </a>
-                        </div>
-                    </article>
-
-
-                    <article class="menu-card">
-                        <div class="menu-image">
-                            <img src="images/assorted.jpg" alt="Assorted pastries and treats">
-                            <span class="menu-number">04</span>
-                        </div>
-
-                        <div class="menu-info">
-                            <h3>Party Treats</h3>
-                            <p>Perfect bites for parties and special occasions.</p>
-                            <a href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20need%20party%20treats."
-                               target="_blank"
-                               rel="noopener">
-                                Order now →
-                            </a>
-                        </div>
-                    </article>
-
-                </div>
-
-                <div class="menu-note">
-                    <span>Have something specific in mind?</span>
-                    <a href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20make%20a%20custom%20order."
-                       target="_blank"
-                       rel="noopener">
-                        Send us a message →
-                    </a>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- WHY US -->
-        <section class="why-us section" id="why-us">
-            <div class="container">
-
-                <div class="why-header">
-                    <span class="section-tag">WHY ALFA</span>
-                    <h2>Made to make you <span>smile.</span></h2>
-                </div>
-
-                <div class="why-grid">
-
-                    <div class="why-card">
-                        <div class="why-icon">✦</div>
-                        <h3>Fresh Every Time</h3>
-                        <p>
-                            We prepare our treats with freshness and quality
-                            at the heart of every order.
-                        </p>
-                    </div>
-
-                    <div class="why-card featured">
-                        <div class="why-icon">♡</div>
-                        <h3>Made With Care</h3>
-                        <p>
-                            Every batch is prepared with attention to taste,
-                            texture and presentation.
-                        </p>
-                    </div>
-
-                    <div class="why-card">
-                        <div class="why-icon">★</div>
-                        <h3>Perfect For Events</h3>
-                        <p>
-                            Make your celebrations better with delicious
-                            treats your guests will enjoy.
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- GALLERY -->
-        <section class="gallery section">
-            <div class="container">
-
-                <div class="section-heading centered">
-                    <span class="section-tag">A TASTE OF ALFA</span>
-                    <h2>Good food deserves a <span>closer look.</span></h2>
-                </div>
-
-                <div class="gallery-grid">
-                    <div class="gallery-item gallery-large">
-                        <img src="images/puff-puff.jpg" alt="ALFA puff-puff">
-                    </div>
-
-                    <div class="gallery-item">
-                        <img src="images/pastries.jpg" alt="ALFA pastries">
-                    </div>
-
-                    <div class="gallery-item">
-                        <img src="images/snacks.jpg" alt="ALFA snacks">
-                    </div>
-
-                    <div class="gallery-item gallery-wide">
-                        <img src="images/assorted.jpg" alt="ALFA assorted treats">
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- CTA -->
-        <section class="cta">
-            <div class="cta-pattern"></div>
-
-            <div class="container cta-content">
-                <span class="section-tag light">READY TO ORDER?</span>
+                <span class="intro-label">
+                    ALFA PUFF PUFF
+                </span>
 
                 <h2>
-                    Your next delicious
-                    <span>moment starts here.</span>
+                    Good food doesn't need
+                    <em>to be complicated.</em>
                 </h2>
 
                 <p>
-                    Craving puff-puff or planning a special occasion?
-                    Send us a message and let's make it happen.
+                    We focus on what matters — fresh ingredients,
+                    great taste and pastries worth coming back for.
                 </p>
 
-                <a href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20place%20an%20order."
-                   class="btn btn-white"
-                   target="_blank"
-                   rel="noopener">
-                    Order on WhatsApp →
-                </a>
             </div>
+
         </section>
 
 
-        <!-- CONTACT -->
-        <section class="contact section" id="contact">
-            <div class="container contact-grid">
 
-                <div class="contact-content">
-                    <span class="section-tag">GET IN TOUCH</span>
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-gallery">
+
+                    <div class="about-image about-image-main">
+
+                        <img
+                            src="images/puff-puff.jpg"
+                            alt="ALFA PUFF PUFF freshly prepared product"
+                            loading="lazy">
+
+                    </div>
+
+
+                    <div class="about-image about-image-small">
+
+                        <img
+                            src="images/pastries.jpg"
+                            alt="ALFA PUFF PUFF pastries"
+                            loading="lazy">
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-tag">
+                        ABOUT ALFA
+                    </span>
 
                     <h2>
-                        Let's make
-                        <span>something delicious.</span>
+                        Freshly made.
+                        <span>Properly served.</span>
                     </h2>
 
                     <p>
-                        Ready to order? Have a question? We'd love to hear
-                        from you.
+                        ALFA PUFF PUFF is a pastry business based in
+                        Ijebu Ode, creating fresh and enjoyable treats
+                        for customers who appreciate quality and good taste.
                     </p>
 
-                    <div class="contact-details">
+                    <p>
+                        Whether you're ordering for yourself, your family,
+                        guests or an event, our goal is simple:
+                        give you pastries you'll genuinely enjoy.
+                    </p>
 
-                        <a href="tel:+2349139967838" class="contact-item">
-                            <span class="contact-icon">☎</span>
-                            <div>
-                                <small>Call us</small>
-                                <strong>0913 996 7838</strong>
-                            </div>
-                        </a>
 
-                        <a href="https://wa.me/2349139967838" class="contact-item" target="_blank" rel="noopener">
-                            <span class="contact-icon">◉</span>
-                            <div>
-                                <small>WhatsApp</small>
-                                <strong>Chat with us</strong>
-                            </div>
-                        </a>
+                    <div class="about-list">
 
-                        <a href="https://www.tiktok.com/@puffpuff164" class="contact-item" target="_blank" rel="noopener">
-                            <span class="contact-icon">♪</span>
-                            <div>
-                                <small>TikTok</small>
-                                <strong>@puffpuff164</strong>
-                            </div>
-                        </a>
+                        <div class="about-list-item">
 
-                        <div class="contact-item">
-                            <span class="contact-icon">⌖</span>
+                            <span>01</span>
+
                             <div>
-                                <small>Location</small>
-                                <strong>Ijebu Ode, Ogun State</strong>
+                                <strong>Fresh preparation</strong>
+                                <p>
+                                    Prepared to deliver great taste and texture.
+                                </p>
                             </div>
+
+                        </div>
+
+
+                        <div class="about-list-item">
+
+                            <span>02</span>
+
+                            <div>
+                                <strong>Quality-focused</strong>
+                                <p>
+                                    Careful attention goes into every order.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="about-list-item">
+
+                            <span>03</span>
+
+                            <div>
+                                <strong>Made for occasions</strong>
+                                <p>
+                                    Ideal for gatherings, celebrations and events.
+                                </p>
+                            </div>
+
                         </div>
 
                     </div>
-                </div>
 
-                <div class="contact-card">
-                    <div class="contact-card-top">
-                        <span>ALFA</span>
-                        <span>PUFF PUFF</span>
-                    </div>
 
-                    <div class="contact-card-main">
-                        <span class="mini-label">FRESH • TASTY • LOCAL</span>
-                        <h3>Made fresh.<br>Made for you.</h3>
+                    <a
+                        href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20make%20an%20inquiry."
+                        class="text-link"
+                        target="_blank"
+                        rel="noopener">
 
-                        <a href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20place%20an%20order."
-                           target="_blank"
-                           rel="noopener">
-                            Start an Order →
-                        </a>
-                    </div>
+                        Speak with us →
 
-                    <div class="contact-card-bottom">
-                        <span>IJEBU ODE</span>
-                        <span>© <span id="cardYear"></span></span>
-                    </div>
+                    </a>
+
                 </div>
 
             </div>
+
+        </section>
+
+
+
+        <!-- ================= PRODUCTS ================= -->
+
+        <section class="menu-section section" id="menu">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-tag">
+                            OUR PRODUCTS
+                        </span>
+
+                        <h2>
+                            Made fresh,
+                            <span>served right.</span>
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Explore some of what ALFA PUFF PUFF has
+                        to offer. Contact us for available options,
+                        quantities and orders.
+                    </p>
+
+                </div>
+
+
+                <div class="menu-grid">
+
+                    <!-- PRODUCT 1 -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="images/puff-puff.jpg"
+                                alt="Puff-puff from ALFA PUFF PUFF"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-info">
+
+                            <span class="product-number">
+                                01
+                            </span>
+
+                            <h3>
+                                Puff-Puff
+                            </h3>
+
+                            <p>
+                                Soft, fresh and prepared for
+                                a satisfying bite.
+                            </p>
+
+                            <a
+                                href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20order%20puff-puff."
+                                target="_blank"
+                                rel="noopener">
+
+                                Enquire →
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 2 -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="images/pastries.jpg"
+                                alt="Fresh pastries from ALFA PUFF PUFF"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-info">
+
+                            <span class="product-number">
+                                02
+                            </span>
+
+                            <h3>
+                                Pastries
+                            </h3>
+
+                            <p>
+                                Carefully prepared pastries
+                                for different occasions.
+                            </p>
+
+                            <a
+                                href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20ask%20about%20your%20pastries."
+                                target="_blank"
+                                rel="noopener">
+
+                                Enquire →
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 3 -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="images/snacks.jpg"
+                                alt="ALFA PUFF PUFF snacks"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-info">
+
+                            <span class="product-number">
+                                03
+                            </span>
+
+                            <h3>
+                                Snacks
+                            </h3>
+
+                            <p>
+                                Delicious snack options made
+                                for everyday enjoyment.
+                            </p>
+
+                            <a
+                                href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20ask%20about%20your%20snacks."
+                                target="_blank"
+                                rel="noopener">
+
+                                Enquire →
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PRODUCT 4 -->
+
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+
+                            <img
+                                src="images/assorted.jpg"
+                                alt="ALFA PUFF PUFF assorted pastries"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-info">
+
+                            <span class="product-number">
+                                04
+                            </span>
+
+                            <h3>
+                                Assorted Treats
+                            </h3>
+
+                            <p>
+                                A selection of treats suitable
+                                for gatherings and special moments.
+                            </p>
+
+                            <a
+                                href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20ask%20about%20your%20assorted%20treats."
+                                target="_blank"
+                                rel="noopener">
+
+                                Enquire →
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="product-note">
+
+                    <p>
+                        Looking for something specific?
+                    </p>
+
+                    <a
+                        href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20make%20a%20custom%20order."
+                        target="_blank"
+                        rel="noopener">
+
+                        Tell us what you need →
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= WHY CHOOSE US ================= -->
+
+        <section class="why-us section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-tag">
+                            THE ALFA STANDARD
+                        </span>
+
+                        <h2>
+                            Why customers
+                            <span>choose us.</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="why-grid">
+
+                    <article class="why-card">
+
+                        <span class="why-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Freshness first
+                        </h3>
+
+                        <p>
+                            We believe freshly prepared pastries
+                            make all the difference.
+                        </p>
+
+                    </article>
+
+
+                    <article class="why-card why-card-dark">
+
+                        <span class="why-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Quality & care
+                        </h3>
+
+                        <p>
+                            Every order receives attention to
+                            quality, taste and presentation.
+                        </p>
+
+                    </article>
+
+
+                    <article class="why-card">
+
+                        <span class="why-number">
+                            03
+                        </span>
+
+                        <h3>
+                            For every occasion
+                        </h3>
+
+                        <p>
+                            From personal cravings to gatherings
+                            and celebrations, we've got you covered.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= GALLERY ================= -->
+
+        <section class="gallery section" id="gallery">
+
+            <div class="container">
+
+                <div class="section-heading gallery-heading">
+
+                    <div>
+
+                        <span class="section-tag">
+                            OUR GALLERY
+                        </span>
+
+                        <h2>
+                            A closer look at
+                            <span>ALFA.</span>
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Real products. Real preparation.
+                        Real taste.
+                    </p>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <div class="gallery-item gallery-large">
+
+                        <img
+                            src="images/puff-puff.jpg"
+                            alt="ALFA PUFF PUFF product"
+                            loading="lazy">
+
+                    </div>
+
+
+                    <div class="gallery-item">
+
+                        <img
+                            src="images/pastries.jpg"
+                            alt="ALFA pastries"
+                            loading="lazy">
+
+                    </div>
+
+
+                    <div class="gallery-item">
+
+                        <img
+                            src="images/snacks.jpg"
+                            alt="ALFA snacks"
+                            loading="lazy">
+
+                    </div>
+
+
+                    <div class="gallery-item gallery-wide">
+
+                        <img
+                            src="images/assorted.jpg"
+                            alt="ALFA assorted treats"
+                            loading="lazy">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="cta">
+
+            <div class="container cta-inner">
+
+                <span class="section-tag light">
+                    READY TO ORDER?
+                </span>
+
+                <h2>
+                    Good food is
+                    <span>just a message away.</span>
+                </h2>
+
+                <p>
+                    Contact ALFA PUFF PUFF today for orders,
+                    enquiries and special requests.
+                </p>
+
+                <a
+                    href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20place%20an%20order."
+                    class="btn btn-white"
+                    target="_blank"
+                    rel="noopener">
+
+                    Order on WhatsApp →
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="container contact-grid">
+
+                <div class="contact-content">
+
+                    <span class="section-tag">
+                        CONTACT
+                    </span>
+
+                    <h2>
+                        Let's talk about
+                        <span>your order.</span>
+                    </h2>
+
+                    <p>
+                        Whether you're ordering for yourself,
+                        your family or an event, get in touch
+                        and we'll be happy to assist.
+                    </p>
+
+
+                    <div class="contact-list">
+
+                        <a
+                            href="tel:+2349139967838"
+                            class="contact-row">
+
+                            <span class="contact-label">
+                                PHONE
+                            </span>
+
+                            <strong>
+                                0913 996 7838
+                            </strong>
+
+                        </a>
+
+
+                        <a
+                            href="https://wa.me/2349139967838"
+                            class="contact-row"
+                            target="_blank"
+                            rel="noopener">
+
+                            <span class="contact-label">
+                                WHATSAPP
+                            </span>
+
+                            <strong>
+                                Chat with ALFA
+                            </strong>
+
+                        </a>
+
+
+                        <a
+                            href="https://www.tiktok.com/@puffpuff164"
+                            class="contact-row"
+                            target="_blank"
+                            rel="noopener">
+
+                            <span class="contact-label">
+                                TIKTOK
+                            </span>
+
+                            <strong>
+                                @puffpuff164
+                            </strong>
+
+                        </a>
+
+
+                        <div class="contact-row">
+
+                            <span class="contact-label">
+                                LOCATION
+                            </span>
+
+                            <strong>
+                                Ijebu Ode, Ogun State
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="contact-panel">
+
+                    <span class="panel-small">
+                        ALFA PUFF PUFF
+                    </span>
+
+                    <div class="panel-line"></div>
+
+                    <h3>
+                        Fresh pastries.
+                        <br>
+                        Made with purpose.
+                    </h3>
+
+                    <p>
+                        Ijebu Ode, Ogun State
+                    </p>
+
+                    <a
+                        href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20place%20an%20order."
+                        target="_blank"
+                        rel="noopener">
+
+                        Start your order →
+
+                    </a>
+
+                </div>
+
+            </div>
+
         </section>
 
     </main>
 
 
-    <!-- FOOTER -->
+
+    <!-- ================= FOOTER ================= -->
+
     <footer class="footer">
+
         <div class="container">
 
-            <div class="footer-top">
+            <div class="footer-main">
 
                 <a href="#home" class="logo footer-logo">
-                    <span class="logo-mark">A</span>
-                    <span>
-                        <strong>ALFA</strong>
-                        <small>PUFF PUFF</small>
+
+                    <span class="logo-mark">
+                        A
                     </span>
+
+                    <span class="logo-text">
+
+                        <strong>
+                            ALFA
+                        </strong>
+
+                        <small>
+                            PUFF PUFF
+                        </small>
+
+                    </span>
+
                 </a>
 
+
                 <p>
-                    Fresh puff-puff and delicious pastries,
-                    made with care in Ijebu Ode.
+                    Fresh puff-puff and quality pastries
+                    in Ijebu Ode.
                 </p>
 
-                <div class="footer-socials">
-                    <a href="https://www.tiktok.com/@puffpuff164" target="_blank" rel="noopener">
-                        TikTok
-                    </a>
 
-                    <a href="https://wa.me/2349139967838" target="_blank" rel="noopener">
-                        WhatsApp
-                    </a>
+                <div class="footer-links">
+
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#menu">Products</a>
+                    <a href="#contact">Contact</a>
+
                 </div>
 
             </div>
 
+
             <div class="footer-bottom">
-                <span>© <span id="year"></span> ALFA PUFF PUFF. All rights reserved.</span>
-                <span>Ijebu Ode, Ogun State</span>
+
+                <span>
+                    © <span id="year"></span>
+                    ALFA PUFF PUFF.
+                    All rights reserved.
+                </span>
+
+                <a
+                    href="https://www.tiktok.com/@puffpuff164"
+                    target="_blank"
+                    rel="noopener">
+
+                    TikTok @puffpuff164
+
+                </a>
+
             </div>
 
         </div>
+
     </footer>
 
 
-    <!-- FLOATING WHATSAPP -->
-    <a href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20place%20an%20order."
-       class="whatsapp-float"
-       target="_blank"
-       rel="noopener"
-       aria-label="Chat on WhatsApp">
-        <span>◉</span>
-        <small>Order</small>
+
+    <!-- ================= WHATSAPP ================= -->
+
+    <a
+        href="https://wa.me/2349139967838?text=Hello%20ALFA%20PUFF%20PUFF%2C%20I%20would%20like%20to%20place%20an%20order."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener"
+        aria-label="Order through WhatsApp">
+
+        <span>WA</span>
+
     </a>
 
 
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
+
 </body>
 </html>
